@@ -12,6 +12,6 @@ _Instructions for biologists:_
 
 If you don't already have python, install [Anaconda for Python 3.5](https://www.continuum.io/downloads).
 
-Next clone this repository to your computer. You can also [download and extract a zip](archive/master.zip).
+Next clone this repository to your computer. You can also [download and extract a zip](https://github.com/dhimmel/opcixn/archive/master.zip).
 
 Launch Jupyter (`jupyter notebook` in terminal or using the Anaconda GUI) and navigate to the [`encrichment.ipynb`](encrichment.ipynb) notebook.
