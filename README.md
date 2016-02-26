@@ -8,7 +8,7 @@ Identify genes enriched in OPC and endothelial cells.
 
 ## Resources
 
-RNA-seq expression data is from the [Brain RNA-Seq Database](http://web.stanford.edu/group/barres_lab/brain_rnaseq.html) (DOI: [Zhang et al (2014) J Neurosci](https://doi.org/10.1523/JNEUROSCI.1860-14.2014 "An RNA-Sequencing Transcriptome and Splicing Database of Glia, Neurons, and Vascular Cells of the Cerebral Cortex")).
+RNA-seq expression data is from the [Brain RNA-Seq Database](http://web.stanford.edu/group/barres_lab/brain_rnaseq.html) ([Zhang et al (2014) _J Neurosci_](https://doi.org/10.1523/JNEUROSCI.1860-14.2014 "An RNA-Sequencing Transcriptome and Splicing Database of Glia, Neurons, and Vascular Cells of the Cerebral Cortex")).
 
 ## Installation
 
