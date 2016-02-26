@@ -1,5 +1,4 @@
-
-# Created by https://www.gitignore.io/api/linux,osx,windows,microsoftoffice,python,ipythonnotebook,r
+# Created by https://www.gitignore.io/api/linux,osx,windows,microsoftoffice,python,ipythonnotebook,r,libreoffice
 
 ### Linux ###
 *~
@@ -177,4 +176,8 @@ vignettes/*.pdf
 
 # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
 .httr-oauth
+
+### LibreOffice ###
+# LibreOffice locks
+.~lock.*#
 
