@@ -45,4 +45,4 @@ Launch Jupyter (`jupyter notebook` in terminal or using the Anaconda GUI) and na
 
 ## License
 
-All original content in this repository is released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons · Public Domain Dedication"). STRING data is licensed as [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/). The Gene Ontology data is licensed as [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/).
+All original content in this repository is released under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/ "Creative Commons · Public Domain Dedication"). STRING data is licensed as [CC BY 3.0](http://creativecommons.org/licenses/by/3.0/). The Gene Ontology data is licensed as [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/). Brain RNA-Seq data is included with permission from its creator Steven Sloan.
