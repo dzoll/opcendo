@@ -23,7 +23,7 @@ The following datasets are created:
 
 + [`enrichment.tsv`](data/enrichment.tsv) — text file with expression fold changes and GO annotations.
 + [`filtered.xlsx`](data/filtered.xlsx) — spreadsheet with the filtered interactions.
-+ [`network.graphml`](data/filtered.xlsx) — network constructed using the filtered interactions. This file can be loaded into [Cytoscape 3](http://www.cytoscape.org/)
++ [`network.graphml`](data/filtered.xlsx) — network constructed using the filtered interactions. This file can be loaded into [Cytoscape 3](http://www.cytoscape.org/) using the menu option: File ▶ Import ▶ File.
 
 ## Resources
 
