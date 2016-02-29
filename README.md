@@ -2,7 +2,7 @@
 
 By Daniel Himmelstein & Dan Zollinger
 
-Here we identify gene pairs that are candidate OPC–endothelial cell interactors. We create a filtered set of gene-gene interactions by:
+Oligodendrocyte precursor cells (OPCs) were [recently found](https://doi.org/10.1126/science.aad3839 "Oligodendrocyte precursors migrate along vasculature in the developing nervous system") to migrate along the vascular endothelium. Here we identify gene pairs that are candidate OPC–endothelial cell interactors. We create a filtered set of gene-gene interactions by:
 
 + filtering for genes that participate in relevant GO terms
 + filtering for gene-pairs that exceed an interaction confidence score threshold
