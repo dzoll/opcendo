@@ -2,21 +2,29 @@
 
 By Daniel Himmelstein & Dan Zollinger
 
-Here we identify gene pairs that are candidate OPC–endothelial cell interactors. We look for interactions between genes that participate in relevant GO terms. We filter for interactions where one gene is enriched in OPCs and the other is enriched in endothelial cells.
+Here we identify gene pairs that are candidate OPC–endothelial cell interactors. We create a filtered set of gene-gene interactions by:
+
++ filtering for genes that participate in relevant GO terms
++ filtering for gene-pairs that exceed an interaction confidence score threshold
++ filtering for gene-pairs where one gene is enriched in OPCs and the other is enriched in endothelial cells.
+
+The filtered dataset provides a candidate network of interactions for biologic interrogation.
 
 ## Execution
 
 Execute the notebooks in the following order:
 
 1. [`enrichment.ipynb`](enrichment.ipynb) — calculate transcriptional fold changes for OPCs and endothelial cells. Integrate Gene Ontology annotations.
-2. [`interaction.ipynb`](interaction.ipynb) — integrate protein interactions with expression and GO data.
+2. [`interaction.ipynb`](interaction.ipynb) — integrate protein interactions with expression and GO data. Filter interactions according to user-defined parameters. Create an interaction network.
 
 ## Datasets
 
 The following datasets are created:
 
 + [`enrichment.tsv`](data/enrichment.tsv) — text file with expression fold changes and GO annotations.
-+ [`interactions.tsv`](data/interactions.tsv) — text file with candidate gene pairs.
++ [`interactions.tsv`](data/interactions.tsv) — text file with merged interaction and expression data.
++ [`filtered.xlsx`](data/filtered.xlsx) — spreadsheet with the filtered interactions.
++ [`network.graphml`](data/filtered.xlsx) — network constructed using the filtered interactions. This file can be loaded into [Cytoscape 3](http://www.cytoscape.org/)
 
 ## Resources
 
